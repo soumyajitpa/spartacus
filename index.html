@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: black;
+            height: 10vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background-image:url("https://images.unsplash.com/photo-1578287595011-8c565dfc2ef8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZpcmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80") ;
+            background-repeat: no-repeat;
+          
+            background-position: center;
+            background-size: 50%;
+            position: fixed;
+            z-index: 2;
+          
+            top:0% ;
+            
+ 
+
+       
+        }
+        #hello{
+            color: white;
+            display: inline-block;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration: none;
+          
+           
+     position:absolute;
+     top: 5%;
+     left: 25%;
+
+        }
+        #hello:hover{
+            color: gold;
+        }
+        #hello1{
+            color: white;
+    
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+       position: absolute;
+       top: 5% ;
+       left: 13%;
+       text-decoration: none;
+         
+         
+
+
+        }
+        #hello1:hover{
+            color: gold;
+        }
+        #hello3{
+            color: white;
+            display: inline-block;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         
+            position: absolute;
+            top: 5%; 
+            left:3%;
+            text-decoration: none;
+         
+        }
+        #hello3:hover{
+            color: gold;
+        }
+        #soumya{
+            position: absolute;
+            top: 7%;
+            z-index: 0;
+        }
+        #me5{
+         
+            position: absolute;
+            top: 5%;
+            left: 36%;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+            
+        }
+        #me:hover{
+            color: gold;
+        }
+        
+
+        
+        #surajit{
+            position: absolute;
+            top: 14%;
+           
+            height: 40vh;
+            width: 20vw;
+
+        }
+        #guppu{
+            background-image: url("data:image/jpeg;base64,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 ");
+            background-size:70vw;
+          
+          
+            background-repeat: no-repeat;
+            border: 2px solid black;
+            position: absolute;
+            top: 12%;
+            left: 23%;
+            height: 40vh;
+            width: 70vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+        }
+        #guppu:hover {
+            color:goldenrod;
+           
+height: 40vh;
+width: 70vw;
+        }
+    #terenam{
+            position: absolute;
+            left: 0%;
+       top: 40%;
+   
+        }
+        #gopi{
+            position: absolute;
+            top: 58%;
+            left: 2%;
+            text-transform: capitalize;
+
+        }
+        b{
+            color:goldenrod;
+        }
+        b:hover{
+            color: rgb(175, 129, 218);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="file:///C:/Users/User/Pictures/spauuul/soumya.html#" id="hello" height="40px"><i class="fa-solid fa-house-chimney-window"></i>HOME</a>
+        <a href="file:///C:/Users/User/Pictures/spauuul/contacts.html" id="hello1" height="40px"><i class="fa-regular fa-address-book"></i>CONTACTS</a>
+        <a href="file:///C:/Users/User/Desktop/index.html" id="hello3" height="40px"><i class="fa-regular fa-address-card"></i>LOGIN</a>
+        <h1 id="me6" style="color: whitesmoke;">ARTIMUS</h1>
+    </nav>
+    <div  id="swapna">
+       <div>
+      
+       <img src="c:\Users\User\Desktop\download.jpg" id="surajit" /></div>
+      
+       <ul>
+        <p id="guppu" > <i class="fa-solid fa-circle-arrow-right" id="terenam"></i>In ancient Greek religion and mythology,<br> Artemis (/ˈɑːrtɪmɪs/; Greek: Ἄρτεμις) is the goddess of the hunt, the wilderness, <br>wild animals, nature, vegetation, childbirth, care of children, and chastity. </p>
+       </ul>
+    </div>
+    <div id="gopi">
+        <h1<i class="fa-solid fa-hand-fist"></i>>step for become a successfull like a artimus </h1>
+        <br>
+        <br>
+        <br>
+        
+          <p<i class="fa-light fa-hand-point-right fa-beat-fade">></i>
+         <b>  1. Clarify My Goal
+I will write down exactly what it is that I want to achieve. I will include as many details as possible!
+<br>
+2. Discover a Big Why
+I will write down a list of specific, positive, emotional reasons for achieving the goal, and post the list where I can review it regularly.
+<br>
+3. Define The Pain
+I will list all the regrets and/or consequences of NOT achieving it (think 1,3, and 5 years into the future).
+
+20_steps_to_achieving_anything
+Download This Map Here
+
+Ezoic
+        <br>
+4. Capture My Vision
+I will create a vision board with pictures (people, places, and things) and words that help me live’ the emotional experience of achieving my goal.
+<br>
+5. Learn What I Need To Do
+I will use Google to find books, courses, articles, how-to’s, guides, tips, and videos that explain how to accomplish my goal
+<br>
+6. Find a Mentor
+I will gather a list of 10-20 questions and interview someone who’s achieved what I want to achieve.
+
+Ezoic
+<br>
+7. Develop a Plan
+I will develop a simple step-by-step plan containing milestones with dates. I won’t know all the details initially. I just need a rough guide.
+<br>
+8. Choose Some Rewards
+I will choose several small rewards (books, movies, clothes, tools, days off, etc.) to give myself after completing various stages of my goal.
+<br>
+9. Identify Resources
+I will take inventory of what assets I currently have at my disposal, including tools, skills, experience, contacts, websites, etc.
+<br>
+10. Eliminate Roadblocks
+I will create a simple list of potential roadblocks I could encounter, then decide (in advance) how to quickly overcome them.
+<br>
+11. Remove Distractions
+Too much TV, games, and over-socializing (in person, on the phone, or online) consume valuable time. I will create a ‘time – budget’ for these activities.
+<br>
+12. Enlist A Partner
+If I know someone who desires the same outcome as me, I will join forces with them – there’s real power in synergy!
+<br>
+Ezoic
+<br>
+13. Manage My Time
+I will take the steps within my plan, assign them each a time (30 mins., etc.), then use a timer to focus on completing each of those steps.
+<br>
+14. Connect With It
+I will regularly turn off all noise (TV, computer, phones, etc.) so I can sit quietly for 5-10 mins, to visualize and meditate on my goal.
+<br>
+15. Maintain My Health
+Good health provides energy! I will drink plenty of water, eat healthy foods, breathe deeply, and get some moderate exercise.
+
+Ezoic
+<br>
+16. Become  Accountable
+I will commit to my goal publicly by telling others about it (in person or online). I will share with them both details and progress.
+<br>
+17. Immerse My Self In It
+I will surround myself with anything (people, pictures, books, music – whatever) that keeps me immersed in the reality of my goal.
+<br>
+18. Take Specific Action
+I will take at least 1action toward achieving my goal each day – even if it’s something small.
+
+Ezoic
+<br>
+19. Stay Excited
+I will keep myself excited about my goal by adopting a ‘What If UP’ mindset: What if I do better than expected? What if it all goes right? Etc.
+<br>
+20. Review My Progress
+I will spend 5-10 mins, a week reviewing the progress I am making toward my goal, and make any changes as necessary.
+
+Download the 20 Steps To Achieving Anything map,
+Print it, laminate it, and hang it on your wall. Use it as a constant reminder and motivator of how to Achieving Anything!
+
+Ezoic
+A beautifully illustrated, one-page guide with powerful reminders for Achieving Anything. It’s a high-quality Map that You will find real value in using day after day.
+
+A step-by-step plan for achieving anything
+
+Clarity + Emotion + Action = Achievement
+
+Learning Guide
+
+Intended Lesson For This Map
+
+To help you understand that successfully achieving something is rarely the result of chance, but it requires following a proven blueprint, or step-by-step plan.
+
+These 20 steps are designed to help you clarify your goal (to define and see it clearly – including specifics and details), and to help you regularly connect with it on an emotional level.
+
+Understand The Elements Of This Map.</b>
+            
+
+        </p>
+    </div>
+    </body>
+</html>
